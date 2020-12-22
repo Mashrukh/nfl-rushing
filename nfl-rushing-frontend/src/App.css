@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.badge {
+  background-color: #9ae6b4;
+  color: #22543d;
+  margin-right: 4px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#header{
+  padding-left: 45%;
+  display:inline-block;
+  vertical-align:top;
+  display:flex;
+}
