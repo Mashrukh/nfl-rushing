@@ -130,7 +130,7 @@ export default function Table({ columns, data }) {
           ))}
         </select>
         <span id="downloadCsv">
-          <Button size="small" variant="contained" color="link" disableElevation onClick={() => exportData("csv")}>
+          <Button size="small" variant="contained" color="primary" disableElevation onClick={() => exportData("csv")}>
             Download CSV
           </Button>
         </span>

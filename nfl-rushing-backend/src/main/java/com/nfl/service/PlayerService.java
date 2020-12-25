@@ -16,7 +16,4 @@ public class PlayerService {
         return repository.findAll();
     }
 
-    public Player getPlayerById(int id) {
-        return repository.findById(id).orElse(null);
-    }
 }

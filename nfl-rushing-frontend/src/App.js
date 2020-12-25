@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import axios from "axios";
 
 import Table from "./components/Table";
-import "./App.css";
+import "./css/App.css";
 
 let theme = createMuiTheme();
 theme = responsiveFontSizes(theme);
@@ -108,7 +108,7 @@ function App() {
   return (
     <div className="App">
       <div id="header">
-        <ThemeProvider id="typography" theme={theme}>
+        <ThemeProvider theme={theme}>
           <Typography variant="h3">NFL Rushing</Typography>
         </ThemeProvider>
       </div>
