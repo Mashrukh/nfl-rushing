@@ -43,7 +43,7 @@ function App() {
             disableSortBy: true
           },
           {
-            Header: "Total Yards",
+            Header: "Total Yards ↑↓",
             accessor: "yds"
           },
           {
@@ -57,12 +57,12 @@ function App() {
             disableSortBy: true
           },
           {
-            Header: "Touchdowns",
+            Header: "Touchdowns ↑↓",
             accessor: "td"
           },
           {
-            Header: "Longest Rush",
-            accessor: "lng"
+            Header: "Longest Rush ↑↓",
+            accessor: "lng",
           },
           {
             Header: "First Down",
